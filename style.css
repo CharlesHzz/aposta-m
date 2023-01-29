@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+}
+.bg{
+    width: 100vw;
+    max-width: 1440px;
+}
+.logo{
+    display: flex;
+    margin: 0 auto;
+    width: 940px;
+    margin-top: -250px;
+    margin-bottom: 40px;
+}
+.logo img{
+    margin: 0 auto;
+    justify-content: center;
+}
+.history{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.history h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4c545d;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.history p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: #9fabb2;
+    width: 535px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.botoes{
+    width: 540px;   
+    margin: 0 auto;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.botoes a{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.ios{
+    border-bottom: 3px solid #21a390;
+    background-color: #27bba5;
+    box-shadow: #27bba5 0px 5px 15px;
+}
+.mac{
+    border-bottom: 3px solid #5367ff;
+    background-color: #6174ff;
+    box-shadow: #6174ff 0px 5px 15px;
+}
+
+.botoes a:hover{
+    transform: scale(1.06);
+}
+
+
+.parte1{
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.secao1 h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4c545d;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.secao1 p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: #9fabb2;
+    width: 640px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.computer{
+    display: flex;
+    margin-left: -300px;
+}
+.itens{
+    margin-left: 100px;
+    padding: 20px;
+    margin-top: 60px;
+}
+.item1,
+.item2{
+    margin-bottom: 50px;
+}
+.item1 h1,
+.item2 h1,
+.item3 h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4c545d;
+    margin-bottom: 20px;
+}
+.item1 p,
+.item2 p,
+.item3 p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #9fabb2;
+}
+.parte2{
+    
+}
+.parte2 img{
+    display: flex;
+    margin: 0 auto;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items1,
+.items2{
+    margin-right: 100px;
+}
+.items1 h1,
+.items2 h1,
+.items3 h1{
+    font-size: 20px;
+}
+.items1 p,
+.items2 p,
+.items3 p{
+    width: 250px;
+    font-size: 13px;
+}
+
+.items1 img,
+.items2 img,
+.items3 img{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.parcerias{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.parceiros{
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+.parceiros img{
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    width: 120px;
+}
+
+.partef{
+
+}
+
+.secao3{
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.secao3 h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4c545d;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.secao3 p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: #9fabb2;
+    width: 640px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    text-align: center;
+}
+
+footer{
+    background-color: #f5f6f8;
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: 20vh;
+}
+.rodape img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 300px;
+}
+.rodape{
+    display: flex;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    width: 500px;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-left: -550px;
+}
+.footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: #4c545d;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: -90px;
+}
+.socialmedia img{
+    display: flex;
+    width: 30px;
+    align-items: center;
+    padding: 15px;
+}
