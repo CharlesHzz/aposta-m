@@ -1,25 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    max-width: 1440px;
     background-color: #fff;
     overflow-x: hidden;
+    max-width: 1440px;
+    margin:auto;
 }
 header{
-    width: 100vw;
+    background-image: url(images/bg-header-desktop.png), linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 6em 0;
+
 }
 .bg{
-    width: 100vw;
-    max-width: 1440px;
+   
 }
 .logo{
-    display: flex;
-    margin: 0 auto;
-    width: 940px;
-    margin-top: -250px;
-    margin-bottom: 40px;
+
 }
 .logo img{
     margin: 0 auto;
@@ -27,7 +29,6 @@ header{
 }
 .history{
     text-align: center;
-    margin-bottom: 25px;
 }
 .history h1{
     font-family: 'Bai Jamjuree', sans-serif;
@@ -47,7 +48,7 @@ header{
 .botoes{
     width: 540px;   
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     display: flex;
