@@ -1,3 +1,6 @@
+Projeto de estudo de HTML e CSS útilizando o site "Fontend Mentor".
+
+
 # Frontend Mentor - Clipboard landing page
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
